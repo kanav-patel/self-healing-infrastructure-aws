@@ -1,4 +1,13 @@
 {
+  "name": "self-healing-infra",
+  "version": "1.0.0",
+  "description": "Production-style Self Healing Infrastructure on AWS",
+  "main": "app/src/server.js",
+  "scripts": {
+    "start": "node app/src/server.js"
+  },
+  "author": "Kanav Patel",
+  "license": "MIT",
   "dependencies": {
     "express": "^5.2.1"
   }
