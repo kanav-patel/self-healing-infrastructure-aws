@@ -33,6 +33,15 @@ app.get("/stress", (req, res) => {
 
 });
 
+// Crash Application
+app.get("/crash", (req, res) => {
+
+    res.send("Application is shutting down...");
+
+    process.exit(1);
+
+});
+
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
